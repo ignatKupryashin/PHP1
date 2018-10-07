@@ -3,12 +3,14 @@
 <head>
 	<title>Галерея - Домашнее задание к уроку №4</title>
 	<link rel="stylesheet" type="text/css" href="style/style.css">
+	
 </head>
 <body>
 	<header>
 		<h1 class="header">Галерея</h1>
 	</header>
 	<main>
+		<? include("engine/config.php"); ?>
 		<div class="gallery">
 			
 			<?
@@ -24,3 +26,4 @@
 
 </body>
 </html>
+
